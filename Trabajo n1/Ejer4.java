@@ -26,19 +26,19 @@ public class Ejer4 {
 			
 			
 		}
-		System.out.println("El total de numeros es de: "+ (numeros.length-1));
+		System.out.println("El total de numeros es de: "+ (numeros.length));
 		System.out.println("El numero maximo es: "+max+" en la posicion: "+pos);
 		System.out.println("El promedio es: "+ (suma/numeros.length));
 		
 		ordenar (numeros);
 		System.out.println("Orden de mayor a menor: ");
-		for (int u = 0; u < numeros.length-1; u++) {
+		for (int u = 0; u < numeros.length; u++) {
 			/*System.out.println("Orden de mayor a menor: ");*/
 			System.out.println(numeros[u]);
 		}
 		ordenar_menor(numeros);
 		System.out.println("Orden de menor a mayor: ");
-		for (int u = 0; u < numeros.length-1; u++) {
+		for (int u = 0; u < numeros.length; u++) {
 			/*System.out.println("Orden de menor a mayor: ");*/
 			System.out.println(numeros[u]);
 			
